@@ -1,11 +1,16 @@
-import './App.css';
-//import Clock from './01/Clock';
-import Lotto from './02/Lotto';
-import Clock from './01/Clock';
+import "./App.css";
+import Lotto from "./02/Lotto";
+import Clock from "./01/Clock";
+import MyCom from "./03/MyCom";
+import MyDiv from "./03/MyDiv";
+import Boxoffice from "./04/Boxoffice";
 function App() {
   return (
     //<Lotto />
-      <Clock />
+    //<Clock />
+    //<MyCom />
+    //<MyDiv />
+    <Boxoffice />
   );
 }
 

@@ -1,6 +1,11 @@
 const ClockTime = () => {
-    return(
-        <div>현재시간 : {new Date().toLocaleTimeString()} </div>
+    return (
+        <>
+            <p>
+                HEllo React
+            </p>
+            <div>현재시간 : {new Date().toLocaleTimeString()} </div>
+        </>
     );
 
 }

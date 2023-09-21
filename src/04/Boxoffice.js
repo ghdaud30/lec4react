@@ -10,13 +10,13 @@ const Boxoffice = () => {
     const handClick = (item) => {
         console.log(item)
         setDatailTag(
-            <div>
-                <span>{item.movieCd}</span><br/>
-                <span>영화제목: {item.movieNm} {item.rankOldAndNew}</span><br/>
-                <span>개봉일: {item.openDt}</span><br/>
-                <span>누적관객수: {item.audiAcc}</span><br/>
-                <span>누적매출액: {parseInt(item.salesAcc).toLocaleString('ko-KR')}</span><br/>
-            </div>
+            <table border="1">
+                <tr>{item.movieCd}</tr>
+                <tr><td>영화제목: {item.movieNm} {item.rankOldAndNew}</td></tr><br/>
+                <tr><td>개봉일: {item.openDt}</td></tr><br/>
+                <tr><td>누적관객수: {item.audiAcc}</td></tr><br/>
+                <tr><td>누적매출액: {parseInt(item.salesAcc).toLocaleString('ko-KR')}</td></tr><br/>
+            </table>
         );
     }
 

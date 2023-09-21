@@ -1,6 +1,5 @@
 import ClockImage from "./ClockImage";
 import ClockTime from "./ClockTime";
-import MyCom from "../03/MyCom";
 const Clock = () => {
 
     return (
@@ -8,7 +7,6 @@ const Clock = () => {
             <header className="App-header">
                 <ClockImage />
                 <ClockTime />
-                <MyCom num={1000}></MyCom>
             </header>
         </div>
     );

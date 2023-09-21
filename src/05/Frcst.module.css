@@ -1,0 +1,35 @@
+.dtcnkey{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+.dtcnkey:hover {
+    background-color: red;
+    color: white;
+}
+
+.div{
+    width: 100px;
+}
+
+.sp1 , .sp2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp21{
+    color: blue;
+}
+
+.sp22{
+    color: yellow;
+}
+
+.sp23{
+    color: red;
+}

@@ -7,6 +7,14 @@
 --ES7 React/Redux/GraphQL/React-Native snippets
 -rafce
 
+## `create-react-app`
+> Node.js , npm 필요
+```bash
+$ npx create-react-app <your-project-name>
+```
+create-react-app 명령어를 사용하여 리액트를 사용한 웹 애플리케이션 개발하는데
+필요한 모든 설정이 되어 있는 프로젝트를 생성하는 도구 입니다.
+
 ## `npm start`
 
 Runs the app in the development mode.\

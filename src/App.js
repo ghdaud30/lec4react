@@ -3,9 +3,9 @@ import "./App.css";
 //import Clock from "./01/Clock";
 // import MyCom from "./03/MyCom";
 // import MyDiv from "./03/MyDiv";
-// import Boxoffice from "./04/Boxoffice";
+import Boxoffice from "./04/Boxoffice";
 //import Frcst from "./05/Frcst"
-import Taccident from "./06/Taccident";
+//import Taccident from "./06/Taccident";
 import MyRef from './07/MyRef';
 function App() {
   return (
@@ -13,10 +13,11 @@ function App() {
     //<Clock />
     //<MyCom />
     //<MyDiv />
-    // <Boxoffice />
+    //<Boxoffice />
     //<Frcst />
-    <Taccident />
+    //<Taccident />
     //<MyRef/>
+    <Boxoffice />
   );
 }
 

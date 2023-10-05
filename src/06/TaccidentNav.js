@@ -1,8 +1,9 @@
 import dataTaccident from './dataTaccident.json'
 import { useEffect, useState } from 'react';
+import './taccident.css'
 
 
-const TaccidentNav = ({ title, c, setSel }) => {
+const TaccidentNav = ({ title, c, sel, setSel }) => {
 
     const [selectedButtonIndex, setSelectedButtonIndex] = useState(null);
 
@@ -14,9 +15,7 @@ const TaccidentNav = ({ title, c, setSel }) => {
 
     const liTag = c.map((item, idx) =>
         <li key={`li${idx}`}><button onClick={() => handleClick(item)}
-            style={{
-                backgroundColor: selectedButtonIndex === idx ? 'red' : 'transparent'
-            }}>
+        className={item === sel ? "bt1" : "bt2"}>
             {item}</button></li>);
 
     return (

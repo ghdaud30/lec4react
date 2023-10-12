@@ -3,10 +3,13 @@ import "./App.css";
 //import Clock from "./01/Clock";
 // import MyCom from "./03/MyCom";
 // import MyDiv from "./03/MyDiv";
-import Boxoffice from "./04/Boxoffice";
+//import Boxoffice from "./04/Boxoffice";
 //import Frcst from "./05/Frcst"
 //import Taccident from "./06/Taccident";
-import MyRef from './07/MyRef';
+//import MyRef from './07/MyRef';
+//import Gallery from "./08/Gallery";
+import Busan from "./09/Busan";
+
 function App() {
   return (
     //<Lotto />
@@ -17,7 +20,9 @@ function App() {
     //<Frcst />
     //<Taccident />
     //<MyRef/>
-    <Boxoffice />
+    //<Boxoffice />
+    //<Gallery/>
+    <Busan/>
   );
 }
 

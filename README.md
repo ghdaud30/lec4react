@@ -25,10 +25,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
->>
+
+## Tailwind css 추가
+
+
 ## 01 : 시계 만들기
 ## 02 : 로또 번호 생성기
 ## 04 : 영화 일일 박스 오피스
 ## 05 : 미세먼지
 ## 06 : 교통사고 분류
 ## 07 : 영화 일일 박스 오피스(useRef 이용) 2023/10/05
+## 09 : 부산축제데이터(useRef 이용) 2023/10/12

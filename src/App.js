@@ -8,7 +8,8 @@ import "./App.css";
 //import Taccident from "./06/Taccident";
 //import MyRef from './07/MyRef';
 //import Gallery from "./08/Gallery";
-import Busan from "./09/Busan";
+//import Busan from "./09/Busan";
+import RouteMain from "./10/RouteMain";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     //<MyRef/>
     //<Boxoffice />
     //<Gallery/>
-    <Busan/>
+    //<Busan/>
+    <RouteMain/>
   );
 }
 
